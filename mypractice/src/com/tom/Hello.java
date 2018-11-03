@@ -10,13 +10,14 @@ public class Hello {
 		String sa = "english";
 		String sb = "math";
 		System.out.printf("Your %s score is %.0f , %s score is %.0f" , sa , a , sb , b);
+		System.out.println("The average is " + (a+b)/2 );
 		
 //		Scanner scanner = new Scanner(System.in);
 //		System.out.println("Your account:");
 //		String name = scanner.nextLine();
 //		System.out.println(name);
 //		
-//		Student st = new Student("Sharon" , 80 , 85);
+//		Student st = new Student("Sharon" , 80 , 85 , 60);
 //		st.print();
 //		
 //		System.out.println(5>=8);

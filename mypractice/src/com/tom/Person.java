@@ -1,8 +1,8 @@
 package com.tom;
 
 public class Person {
-	float weight;
 	float height;
+	float weight;
 	
 	public Person(float weight , float height) {
 		this.weight = weight;

@@ -6,10 +6,10 @@ public class Preferance {
 
 	public static void main(String[] args) {
 		int max = 100, min = 0, i;
-        int j;
+        int g;
         //int mid;
         
-        j = (int)(Math.random()*100 + 1);    
+        g = (int)(Math.random()*100 + 1);    
         System.out.println("answer: ***");    
 
         while (true) {
@@ -21,16 +21,16 @@ public class Preferance {
             
             //mid = (min + max)%2;
             
-            if (i == j){
+            if (i == g){
                 System.out.println("U got!");
                 break;
-            }else if (i < j) {
+            }else if (i < g) {
                 System.out.println("Too <<<...=.,=");
                 System.out.println(i + "~" + max);
                 System.out.println("****************");
                 min = i;
                 //mid = (max + min) % 2;
-            }else if (i > j){
+            }else if (i > g){
                 System.out.println("Too >>> >///<");
                 System.out.println( min + "~" + i);
                 System.out.println("****************");

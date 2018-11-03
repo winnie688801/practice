@@ -7,12 +7,12 @@ public class GuessNumber {
 
 	public static void main(String[] args) {
 		int min = 1;
-		int max = 100;
+		int max = 1000;
 		Scanner scanner = new Scanner(System.in);
 		Random random = new Random();
-		int secret = random.nextInt(100)+1;
+		int secret = random.nextInt(1000)+1;
 		System.out.println(secret);
-		System.out.println("1 to 100 ");
+		System.out.println("1 to 1000");
 	
 		while(true) {
 			System.out.println("Please guess a number");

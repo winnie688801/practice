@@ -22,7 +22,7 @@ public class SignUp {
 			System.out.println("Your informatoin is:" + age + "," + name + "," + nickname);	
 		}
 		else {
-			System.out.println("你個小屁孩,未滿18想幹嘛?");
+			System.out.println("你個小屁孩,未滿18想幹嘛?回家練練吧");
 		}
 	}
 	
